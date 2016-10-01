@@ -1,0 +1,155 @@
+// Place your settings in this file to overwrite the default settings
+{
+
+//files
+
+    //changing end of line to \n only
+    "files.eol": "\n",
+
+    //removing spaces in the end of lines
+    "files.trimTrailingWhitespace": true,
+
+    //trying out auto save
+    "files.autoSave": "onFocusChange",
+
+    //I am not sure yet, but I dont think I need to watch these directories for changes
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true,
+        "**/bower_components/**": true
+    },
+
+//typescript
+
+    //always using last global typescript version by default
+    "typescript.tsdk": "C:/Users/Su/AppData/Roaming/npm/node_modules/typescript/lib",
+
+//terminal
+
+    //using git-bash as prefered
+    //<3
+    "terminal.integrated.shell.windows": "C:/Program Files/Git/bin/bash.exe",
+    "terminal.external.windowsExec": "C:/Program Files/Git/bin/bash.exe",
+
+//git
+    "git.path": "C:/Program Files/Git/bin/git.exe",
+
+//CSS
+
+    //keep css lint ON. Save me lint <3
+    "css.validate": true,
+
+    //force me to include all vendor prefixes
+    //-moz-something
+    //-webkit-something
+    "css.lint.compatibleVendorPrefixes": "error",
+
+    // force me to include the standard property with vendor specific ones
+    // vendors first preferable
+    // -moz-something:
+    // something:
+    "css.lint.vendorPrefix": "error",
+
+    // Do not use duplicate style definitions
+    // background: red;
+    // background: url("mrrobot.png")
+    "css.lint.duplicateProperties": "error",
+
+    // lets avoid unnecessary code
+    "css.lint.emptyRules": "error",
+
+    // Import statements do not load in parallel
+    "css.lint.importStatement": "error",
+
+    // I would like to set width and height for "box-sizing: border-box;" elements
+    "css.lint.boxModel": "ignore",
+
+    // The universal selector (*) is known to be slow
+    "css.lint.universalSelector": "ignore",
+
+    // No unit for zero needed
+    // width: 0px <-- finally I will remember to avoid the unit
+    "css.lint.zeroUnits": "error",
+
+    // @font-face rule must define 'src' and 'font-family' properties
+    "css.lint.fontFaceProperties": "error",
+
+    // Hex colors must consist of three or six hex numbers
+    "css.lint.hexColorLength": "error",
+
+    // Invalid number of parameters
+    "css.lint.argumentsInColorFunction": "error",
+
+    // Unknown property.
+    "css.lint.unknownProperties": "warning",
+
+    // IE hacks are only necessary when supporting IE7 and older
+    // So I hope to never touch IE7 again
+    "css.lint.ieHack": "error",
+
+    // Unknown vendor specific property.
+    "css.lint.unknownVendorSpecificProperties": "ignore",
+
+    // Property is ignored due to the display. E.g. with 'display: inline', the width, height, margin-top, margin-bottom, and float properties have no effect
+    "css.lint.propertyIgnoredDueToDisplay": "warning",
+
+    // Avoid using !important. It is an indication that the specificity of the entire CSS has gotten out of control and needs to be refactored.
+    // Not again !important. You shall not pass
+    "css.lint.important": "error",
+
+    // Avoid using 'float'. Floats lead to fragile CSS that is easy to break if one aspect of the layout changes.
+    // Totally agree
+    "css.lint.float": "error",
+
+    // Selectors should not contain IDs because these rules are too tightly coupled with the HTML.
+    // Couldnt agree more
+    "css.lint.idSelector": "error",
+
+// SCSS (Sass)
+
+    // Matches same validation of CSS lint
+
+    "scss.validate": true,
+    "scss.lint.compatibleVendorPrefixes": "error",
+    "scss.lint.vendorPrefix": "error",
+    "scss.lint.duplicateProperties": "error",
+    "scss.lint.emptyRules": "error",
+    "scss.lint.importStatement": "error",
+    "scss.lint.boxModel": "ignore",
+    "scss.lint.universalSelector": "ignore",
+    "scss.lint.zeroUnits": "error",
+    "scss.lint.fontFaceProperties": "error",
+    "scss.lint.hexColorLength": "error",
+    "scss.lint.argumentsInColorFunction": "error",
+    "scss.lint.unknownProperties": "warning",
+    "scss.lint.ieHack": "error",
+    "scss.lint.unknownVendorSpecificProperties": "ignore",
+    "scss.lint.propertyIgnoredDueToDisplay": "warning",
+    "scss.lint.important": "error",
+    "scss.lint.float": "error",
+    "scss.lint.idSelector": "error",
+
+//LESS
+
+    // Matches same validation of CSS lint
+
+    "less.validate": true,
+    "less.lint.compatibleVendorPrefixes": "error",
+    "less.lint.vendorPrefix": "error",
+    "less.lint.duplicateProperties": "error",
+    "less.lint.emptyRules": "error",
+    "less.lint.importStatement": "error",
+    "less.lint.boxModel": "ignore",
+    "less.lint.universalSelector": "ignore",
+    "less.lint.zeroUnits": "error",
+    "less.lint.fontFaceProperties": "error",
+    "less.lint.hexColorLength": "error",
+    "less.lint.argumentsInColorFunction": "error",
+    "less.lint.unknownProperties": "warning",
+    "less.lint.ieHack": "error",
+    "less.lint.unknownVendorSpecificProperties": "ignore",
+    "less.lint.propertyIgnoredDueToDisplay": "warning",
+    "less.lint.important": "error",
+    "less.lint.float": "error",
+    "less.lint.idSelector": "error"
+}
