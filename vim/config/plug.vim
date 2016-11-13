@@ -9,6 +9,7 @@ Plug 'chriskempson/vim-tomorrow-theme'
 Plug 'atelierbram/vim-colors_atelier-schemes'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'morhetz/gruvbox'
 
 "Theme fixer"
 Plug 'vim-scripts/CSApprox'
