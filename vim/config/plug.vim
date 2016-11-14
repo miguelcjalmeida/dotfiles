@@ -27,4 +27,8 @@ Plug 'OrangeT/vim-csharp'
 "File explorer"
 Plug 'ctrlpvim/ctrlp.vim'
 
+"Syntax Checker"
+Plug 'vim-syntastic/syntastic'
+Plug 'mantoni/eslint_d.js'
+
 call plug#end()
