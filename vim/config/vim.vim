@@ -127,3 +127,6 @@ set expandtab
 " four characters wide.
 "set shiftwidth=4
 "set tabstop=4
+
+"arrows move to next line when reaching the end of line
+set whichwrap+=<,>,h,l,[,]
