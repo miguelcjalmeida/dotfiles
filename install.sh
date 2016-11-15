@@ -43,5 +43,6 @@ ln -s /git/dotfiles/vim/autoload ~/.vim/
 ln -s /git/dotfiles/vim/config ~/.vim/
 
 #configuring cygwin mintty with solarized
+ln -s /git/dotfiles/mintty/.minttyrc ~/
 
 #cygwin notes
