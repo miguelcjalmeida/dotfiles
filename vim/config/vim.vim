@@ -130,3 +130,7 @@ set expandtab
 
 "arrows move to next line when reaching the end of line
 set whichwrap+=<,>,h,l,[,]
+
+"allow project specific .vimrc config
+set exrc
+set secure
