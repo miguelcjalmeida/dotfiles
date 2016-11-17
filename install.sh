@@ -45,7 +45,12 @@ ln -s /git/dotfiles/vim/config ~/.vim/
 #configuring mintty with solarized
 ln -s /git/dotfiles/mintty/.minttyrc ~/
 
+#git
+ln -s /git/dotfiles/git/.gitconfig ~/
+
 #cygwin notes
 echo "-------- STEPS -------"
 echo "1 - install Powerline fonts from .local"
 echo "2 - configure cygwin 256-colors, font, locale (en_US.UTF-8)"  
+
+
