@@ -27,7 +27,7 @@ fi
 
 #git clone my dotfiles folder
 git clone https://github.com/miguelcjalmeida/dotfiles /git/dotfiles
-ln -s /git/dotfiles/ /dotfiles/
+ln -s /git/dotfiles/ /
 
 #configuring zsh
 git clone https://github.com/robbyrussell/oh-my-zsh /usr/share/oh-my-zsh
