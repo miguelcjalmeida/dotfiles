@@ -48,6 +48,17 @@ ln -s /git/dotfiles/mintty/.minttyrc ~/
 #git
 ln -s /git/dotfiles/git/.gitconfig ~/
 
+#tmux
+apt-cyg install gcc-core make automake pkg-config libevent-devel ncurses libncursesw-devel
+
+git clone https://github.com/tmux/tmux.git /git/tmux
+cd /git/tmux
+sh autogen.sh
+./configure && make
+cd ~
+
+ln -s /dotfiles/tmux/.tmux.conf ~/
+
 #cygwin notes
 echo "-------- STEPS -------"
 echo "1 - install Powerline fonts from .local"
