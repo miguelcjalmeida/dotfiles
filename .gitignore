@@ -3,3 +3,4 @@ vim/plugged/
 *.swp
 apt-cyg
 npm-debug.log
+oh-my-zsh
