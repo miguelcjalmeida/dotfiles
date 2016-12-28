@@ -28,3 +28,12 @@ chsh -s /urs/bin/zsh
 sudo rm $HOME/.i3/config
 sudo ln /dotfiles/i3/config $HOME/.i3/config
 
+#set up fonts 
+cd $HOME
+sudo wget https://github.com/be5invis/Iosevka/releases/download/v1.10.0/01.iosevka-1.10.0.zip
+cd /usr/share/fonts
+sudo mkdir iosevka 
+cd iosevka 
+sudo mv $HOME/01.iosevka-1.10.0.zip .
+sudo unzip 01.iosevka-1.10.0.zip
+
