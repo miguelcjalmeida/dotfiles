@@ -37,3 +37,6 @@ cd iosevka
 sudo mv $HOME/01.iosevka-1.10.0.zip .
 sudo unzip 01.iosevka-1.10.0.zip
 
+#set up xresources
+rm $HOME/.Xresources
+sudo ln /dotfiles/Xresources/.Xresources $HOME/.Xresources
