@@ -3,7 +3,7 @@ sudo pacman -S git
 sudo pacman -S zsh
 
 sudo mkdir /git
-sudo cd /git
+cd /git
 sudo git clone https://github.com/miguelcjalmeida/dotfiles
 
 #set up dotfiles
