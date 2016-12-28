@@ -1,24 +1,30 @@
 #set up dependencies
-pacman -S git
-pacman -S zsh
+sudo pacman -S git
+sudo pacman -S zsh
 
-mkdir /git
-cd /git
-git clone https://github.com/miguelcjalmeida/dotfiles
+sudo mkdir /git
+sudo cd /git
+sudo git clone https://github.com/miguelcjalmeida/dotfiles
 
 #set up dotfiles
-ln -s /git/dotfiles /.
+sudo ln -s /git/dotfiles /.
 
 #set up git 
-ln -s /dotfiles/git/.gitconfig $HOME
+sudo ln /dotfiles/git/.gitconfig $HOME/.gitconfig
 
 #set up vim
-ln -s /dotfiles/vim $HOME
-mv $HOME/vim $HOME/.vim
-ln -s /dotfiles/vim/.vimrc $HOME
+sudo ln -s /dotfiles/vim $HOME
+sudo mv $HOME/vim $HOME/.vim
+sudo ln /dotfiles/vim/.vimrc $HOME/.vimrc
 
-#set up zsh 
+#set up zsh
 cd /dotfiles
-git clone https://github.com/robbyrussell/oh-my-zsh
-ln -s /dotfiles/zsh/.zshrc $HOME
+sudo git clone https://github.com/robbyrussell/oh-my-zsh
+sudo ln /dotfiles/zsh/.zshrc $HOME/.zshrc
+
+chsh -s /urs/bin/zsh
+
+#set up i3
+sudo rm $HOME/.i3/config
+sudo ln /dotfiles/i3/config $HOME/.i3/config
 
