@@ -23,6 +23,7 @@ sudo git clone https://github.com/robbyrussell/oh-my-zsh
 sudo ln /dotfiles/zsh/.zshrc $HOME/.zshrc
 
 chsh -s /urs/bin/zsh
+sudo chsh -s /bin/zsh
 
 #set up i3
 sudo rm $HOME/.i3/config
