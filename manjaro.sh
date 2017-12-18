@@ -17,6 +17,12 @@ sudo ln -s /dotfiles/vim $HOME
 sudo mv $HOME/vim $HOME/.vim
 sudo ln /dotfiles/vim/.vimrc $HOME/.vimrc
 
+#set up xprofile
+cd /dotfiles
+rm $HOME/.xprofile
+sudo ln /dotfiles/xprofile/.xprofile $HOME/.xprofile
+echo $HOME 
+
 #set up zsh
 cd /dotfiles
 sudo git clone https://github.com/robbyrussell/oh-my-zsh
