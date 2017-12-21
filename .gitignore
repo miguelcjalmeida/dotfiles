@@ -5,3 +5,4 @@ apt-cyg
 npm-debug.log
 oh-my-zsh
 vim/vim
+vim/.netrwhist
