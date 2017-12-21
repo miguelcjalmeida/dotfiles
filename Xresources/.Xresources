@@ -57,8 +57,15 @@ Xft.hintstyle: hintslight
 Xft.lcdfilter: lcddefault
 Xcursor.theme: Breeze
 Xcursor.size:  0
-*.font: xft:iosevka:pixelSize=18
-*.boldFont: xft:iosevka:bold:pixelSize=18
+URxvt.font: xft:iosevka:style=medium:size=18
+URxvt.boldFont: xft:iosevka:style=bold:size=18
+URxvt.italicFont: xft:iosevka:style=italic:size=18
+URxvt.boldItalicfont: xft:iosevka:style=medium:size=18
+!URxvt.boldFont: xft:iosevka:style=bold:size=11
+!URxvt.italicFont: xft:Iosevka Term:style=italic:size=11
+!URxvt.boldItalicFont: xft:Iosevka Term:style=medium:size=11
+!*.font: xft:iosevka:pixelSize=20
+!*.boldFont: xft:iosevka:bold:pixelSize=20
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
 ! URxvt*inheritPixmap:                  true
