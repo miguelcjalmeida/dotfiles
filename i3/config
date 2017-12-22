@@ -9,9 +9,10 @@ floating_modifier $mod
 hide_edge_borders both
 mouse_warping none
 
-#exec terminal
+#execs
 bindsym $mod+Return exec --no-startup-id terminal
 bindsym $mod+q kill
+bindsym $mod+d exec dmenu_run
 
 # change focus
 bindsym $mod+$left focus left
@@ -92,7 +93,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 
 # Lock screen
-bindsym $mod+9 exec --no-startup-id blurlock
+#bindsym $mod+9 exec --no-startup-id blurlock
 
 # Autostart applications
 ## adjustment of i3bar battery reading (only run at the very first login):
