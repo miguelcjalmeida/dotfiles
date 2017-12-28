@@ -21,14 +21,29 @@ Plug 'xolox/vim-colorscheme-switcher'
 "Fade Inactive Tile"
 Plug 'blueyed/vim-diminactive'
 
-"C#"
-"Plug 'OrangeT/vim-csharp'
-
 "File explorer"
 Plug 'ctrlpvim/ctrlp.vim'
 
+"Autocomplete"
+Plug 'shawncplus/phpcomplete.vim'
+Plug 'ervandew/supertab'
+Plug 'ludovicchabant/vim-gutentags'
+Plug 'Quramy/tsuquyomi'
+
+"Sintax Highlighter"
+Plug 'StanAngeloff/php.vim'
+Plug 'pangloss/vim-javascript' 
+Plug 'mxw/vim-jsx'
+Plug 'leafgarland/typescript-vim'
+Plug 'ianks/vim-tsx'
+
 "Syntax Checker"
-"Plug 'vim-syntastic/syntastic'
-"Plug 'mantoni/eslint_d.js'
+Plug 'vim-syntastic/syntastic'
+
+"Debugger"
+Plug 'joonty/vdebug'
+
+"Git"
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
