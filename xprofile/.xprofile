@@ -6,6 +6,13 @@
 #default editor
 EDITOR=/usr/bin/vim
 
+#gem config
+PATH="$(ruby -e 'print Gem.user_dir')/bin:$PATH"
+export GEM_HOME=$HOME/.gem
+
+#composer config
+PATH=$PATH:$HOME/.config/composer/vendor/bin 
+
 #configure a good resolution
 xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync 
 xrandr --addmode Virtual1 "1920x1080_60.00"

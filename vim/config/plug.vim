@@ -25,10 +25,24 @@ Plug 'blueyed/vim-diminactive'
 Plug 'ctrlpvim/ctrlp.vim'
 
 "Autocomplete"
-Plug 'shawncplus/phpcomplete.vim'
+"Plug 'shawncplus/phpcomplete.vim'
+if has('nvim')
+  Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+  Plug 'Shougo/deoplete.nvim'
+  Plug 'roxma/nvim-yarp'
+  Plug 'roxma/vim-hug-neovim-rpc'
+endif
+
+Plug 'mhartington/nvim-typescript'
+Plug 'padawan-php/deoplete-padawan', { 'do': 'composer install' }
+Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+"Plug 'Shougo/unite.vim'
+"Plug 'Shougo/vimproc', {'do' : 'make'}
+"Plug 'm2mdas/phpcomplete-extended'
 Plug 'ervandew/supertab'
-Plug 'ludovicchabant/vim-gutentags'
-Plug 'Quramy/tsuquyomi'
+"Plug 'ludovicchabant/vim-gutentags' 
+"Plug 'Quramy/tsuquyomi'
 
 "Sintax Highlighter"
 Plug 'StanAngeloff/php.vim'

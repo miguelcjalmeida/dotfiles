@@ -1,5 +1,12 @@
 set nocompatible
 
+" set save command
+command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
+
+" set python location
+let g:python3_host_prog="/usr/bin/python3"
+let g:python2_host_prog="/usr/bin/python2"
+
 filetype off
 
 " Attempt to determine the type of a file based on its name and possibly its
