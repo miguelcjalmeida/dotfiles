@@ -1,0 +1,81 @@
+[Theme]
+; Windows - IDS_THEME_DISPLAYNAME_AERO
+DisplayName=GruvboxGray
+ThemeId={F0BDDE8F-E024-413F-A896-EA3C0B46F2D5}
+
+[Control Panel\Desktop]
+PicturePosition=4
+MultimonBackgrounds=0
+Wallpaper=
+
+[VisualStyles]
+Path=%SystemRoot%\Resources\Themes\Aero\AeroLite.msstyles
+ColorStyle=NormalColor
+Size=NormalSize
+AutoColorization=0
+ColorizationColor=0XC4282828
+VisualStyleVersion=10
+HighContrast=3
+
+[MasterThemeSelector]
+MTSM=RJSPBS
+
+[Control Panel\Colors]
+ActiveBorder=45 45 45
+ActiveTitle=45 45 45
+AppWorkspace=45 45 45
+Background=29 32 33
+ButtonAlternateFace=192 192 192
+ButtonDkShadow=45 45 45
+ButtonFace=60 56 54
+ButtonHilight=45 45 45
+ButtonLight=45 45 45
+ButtonShadow=128 128 128
+ButtonText=146 131 116
+GradientActiveTitle=192 192 192
+GradientInactiveTitle=128 128 128
+GrayText=104 157 106
+Hilight=80 73 69
+HilightText=235 219 178
+HotTrackingColor=152 151 26
+InactiveBorder=45 45 45
+InactiveTitle=45 45 45
+InactiveTitleText=192 192 192
+InfoText=251 241 199
+InfoWindow=45 45 45
+Menu=45 45 45
+MenuBar=35 35 35
+MenuHilight=128 128 128
+MenuText=146 131 116
+Scrollbar=45 45 45
+TitleText=251 241 199
+Window=40 40 40
+WindowFrame=15 15 15
+WindowText=146 131 116
+[Sounds]
+SchemeName=@mmres.dll,-800
+[CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-109
+[CLSID\{59031A47-3F72-44A7-89C5-5595FE6B30EE}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-123
+[CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\DefaultIcon]
+DefaultValue=%SystemRoot%\System32\imageres.dll,-25
+[CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\DefaultIcon]
+full=%SystemRoot%\System32\imageres.dll,-54
+empty=%SystemRoot%\System32\imageres.dll,-55
+[Control Panel\Cursors]
+Arrow=
+Help=
+Hand=
+AppStarting=
+Wait=
+NWPen=
+No=
+SizeNS=
+SizeWE=
+Crosshair=
+IBeam=
+SizeNWSE=
+SizeNESW=
+SizeAll=
+UpArrow=
