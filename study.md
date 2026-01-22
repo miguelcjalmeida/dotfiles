@@ -3,7 +3,7 @@
 **Cloud Benefits:** Agility, Elasticity, Scalability, High Availability, Global Reach, Pay-as-you-go.
 
 **Service Models:**
-- IaaS (Infra as a Service) → EC2, S3, VPC, EBS
+- IaaS (Infra as a Service) → EC2, S3, VPC, EBS 
 - PaaS (Platform as a Service) → Elastic Beanstalk, Lambda, RDS, ECS
 - SaaS (Software as a service) → User-facing apps like WorkSpaces, Chime
 
@@ -30,6 +30,7 @@
 **Shared Responsibility Model:**
 - AWS → Security of the cloud (infra, hardware).
 - You → Security in the cloud (data, IAM, configs).
+- The more control you have, the more responsibilities you get 
 
 **IAM (Identity Access Management):** 
 - Root user (avoid), Users, Groups, Roles, Policies (JSON), MFA.
