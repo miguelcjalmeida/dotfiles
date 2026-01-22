@@ -140,7 +140,9 @@
 
 **EC2 health checks:** System vs Instance.
 RDS Multi-AZ = disaster recovery.
+
 S3 durability = 11 nines, availability depends on storage class.
 
 **CapEx vs OpEx:** On-prem = CapEx; Cloud = OpEx.
+
 Elasticity = auto scale up/down; Scalability = handle steady growth.
