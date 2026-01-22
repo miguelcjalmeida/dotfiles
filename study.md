@@ -30,7 +30,7 @@
 **Shared Responsibility Model:**
 - AWS → Security of the cloud (infra, hardware).
 - You → Security in the cloud (data, IAM, configs).
-- The more control you have, the more responsibilities you get 
+- The more control you have, the more responsabilities you get 
 
 **IAM (Identity Access Management):** 
 - Root user (avoid), Users, Groups, Roles, Policies (JSON), MFA.
@@ -64,7 +64,7 @@
 - Elastic Beanstalk → PaaS for apps
 
 **Networking:**
-- VPC = isolated virtual network
+- VPC (Virtual Private Cloud) = isolated virtual network
 - Subnets (public/private)
 - Route 53 = DNS, routing, health checks
 - CloudFront = CDN for hosting media (200+ global edge locations)
